@@ -1,0 +1,396 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(12, 12, 12);
+background: #333;
+font-size: 1.3rem;
+line-height: 1.6em;
+margin:0;}
+
+
+.Muestra{
+color: #ffffff;
+margin-left:300px;
+font-family:"Leelawadee UI Semilight";
+font-size: 50px;
+}
+
+.Fotos1 {
+max-height: 457px;
+width: 75%;
+max-width: 530px;
+float: left;
+margin: 180px;
+margin-top: 8%;
+margin-right: 20px;
+margin-bottom: 120px;
+}
+
+
+.Fotos11 {
+width: 75%;
+float: right; 
+max-width: 530px;     
+margin-top: 8%;
+}
+        
+.Fotos2 {
+width: 50%;
+max-width: 540px;
+float: right;
+margin-top: 100px;
+margin-right: -59px;
+}
+
+
+.Fotos22 { 
+width: 50%; 
+max-width: 530px;
+line-height: 2.5;
+display: flex;
+margin-left: 20%;           
+}
+
+.Fotos3{
+height: 457px  ;
+width: 50%;
+max-width: 540px;
+line-height: 150px;
+float: flex;
+margin-left: 250px;
+margin-top: 150px;
+}
+
+     
+.Fotos33{            
+height: 457px;
+width: 50%; 
+max-width: 530px;
+line-height: 2.5;
+display: flex;
+margin-left:65%;
+margin-top: -36%;
+margin-bottom: 10%; 
+}
+
+.mision {
+background:#81a4aaf5;
+padding:10px 30px 0px 0px;
+height: 457px  ;
+max-height: 457px;
+text-align: center;
+width: 75%;
+max-width: 530px   ;
+line-height: 150px;
+float: left;
+margin: 100px;
+margin-top: 1px;
+margin-right: 20px; 
+}
+
+
+.mision1 {
+background:#81a4aaf5;
+padding:10px 0px 0px 10px;
+height: 457px  ;
+max-height: 470px;
+text-align: 60%;
+word-spacing: 6px;
+width: 75%;
+max-width: 530px;
+line-height: 2.8;
+display: flex;
+margin-top: 10%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif Sans-serif;
+font-size: 14px;    
+}
+
+
+.vision {    
+background: #f8f689d7;
+padding: 10px 0px 5px 0px;
+height: 457px  ;
+max-height: 470px;
+text-align: center;
+width: 50%;
+max-width: 540px;
+line-height: 150px;
+float: right;
+margin-right: 43px;
+margin-top: 71px;
+}
+
+.vision1 {
+background: #f8f689d7;
+padding: 15px 13px 0px 15px;
+height: 457px;
+max-height: 457px;
+text-align: 50%;
+word-spacing: 6px;
+width: 50%; 
+max-width: 530px;
+line-height: 2.5;
+display: flex;
+margin: 102px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif Sans-serif;
+font-size: 14px;
+}
+
+.Biografia1{
+background: #95b88f;
+padding: 10px 0px 200px 0px;
+height: 457px  ;
+max-height: 470px;
+text-align: center;
+width: 50%;
+max-width: 540px;
+line-height: 150px;
+float: right;
+margin-right: 43px;
+margin-top: 0px;
+}
+
+.Biografia2{
+background:  #95b88f;
+padding: 15px 15px 195px 15px;
+height: 457px;
+max-height: 457px;
+width: 50%; 
+max-width: 530px;
+display: flex;
+margin: 100px;
+}
+.H{
+text-align: 50%;
+word-spacing: 6px;
+line-height: 2.5;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif Sans-serif;
+font-size: 16px;
+}
+
+p {
+margin-bottom: 1.5em;
+margin: 0;
+}
+
+.container {
+width: 85%;
+max-width: 1500px;
+margin: auto auto;
+margin-right: 4rem;    
+}
+
+
+
+.header {
+background: #333;
+color: white;
+padding: 0.5rem 0 ;
+position: fixed;
+left: 0;
+top: 0;
+width:  100%;
+}
+
+
+.header a {
+color: white;
+text-decoration: none;
+}
+
+.logo-nav-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.menu-icon {
+display: none;
+}
+
+.navigation ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.navigation ul li {
+display: inline-block;
+}
+
+
+.navigation ul li a {
+display: block;
+padding: 0.5rem 2rem;
+transition: all 0.4s linear;
+border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+background: #4a4a4a;
+}
+
+.main {
+padding-top: 8rem;
+}
+
+
+@media (max-width: 767px) {
+.menu-icon {
+display: block;
+cursor: pointer;
+padding: 0.5rem 1rem;
+}
+
+        
+.navigation {
+width: 100%;
+margin-top: 1rem;
+}
+
+ .navigation ul {
+display: none;
+}
+
+.navigation ul.show {
+display: block;
+}
+
+
+.navigation ul li {
+display: block;
+}
+    
+.navigation ul li a {
+display: block;
+padding: 0.05rem 0;
+transition: all 0.4s linear;
+border-radius: 5px;
+}
+    
+.navigation ul li a:hover {
+background: #4a4a4a;
+}
+    
+}
+
+/* pendiente*/
+.redes {
+background: rgb(0, 0, 0);
+height: 220px;
+padding: 50px 5px 80px;
+list-style: none;
+text-align: center;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, ;
+font-size: 300%;
+color: #ffffff;
+margin-left: 65px;
+margin-right: 43px
+}
+
+.redes li {
+display: inline-block;
+padding: 0px 150px 0px;
+justify-content: space-between;
+}
+
+
+.contacto {
+background: #bbb9b9;
+margin-top: 60px;
+margin-left: 65px;
+margin-right:600px;
+padding: 10px 0px 10px 30px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+font-size: 100%;
+color: #000000;
+margin-bottom: none;
+}
+
+
+.sub {
+background: #bbb9b9;
+color: #000000;
+padding: 20px 0px 0px 30px ;
+margin-left: 65px;
+margin-right: 600px;
+margin-top: none;
+margin-bottom: 10px;
+font-size: 80%;
+word-spacing: 20px;
+word-spacing: 5px;
+}
+
+
+
+.slider {
+width: 100%;
+margin: auto;
+overflow: hidden;
+align-items: center;    
+}
+
+.slider ul {
+display: flex;
+padding: 0;
+width: 400%;
+animation:cambio 20s infinite alternate linear;
+}
+
+.slider li {
+width: 100%;
+list-style: none;
+}
+
+.slider img {
+width: 100%;
+}
+
+
+@keyframes cambio {
+0%  {margin-left: 0;}
+20% {margin-left: 0;}
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+75% {margin-left: -300%;}
+100%{margin-left: -300%;}
+}
+
+
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70%    {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100%    {margin-left: -300%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
